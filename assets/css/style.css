@@ -92,14 +92,12 @@ p, img{
 }
 
 .footer{  
-    /* min-height: 100px; */
+
     width: 100%;
     background: LightGray;
     display: inline;
     font-size: 14px;
     color: lightgrey;
-    /*! content-align: center; */
-
     vertical-align: bottom;
     margin: -1%;
     position: absolute;
@@ -116,12 +114,10 @@ p, img{
 
 .contact-form{   
     width: 568px;
-    height: 260px;
+    height: auto;
     background-color: white;
     border: 2px solid #aaa;
     margin: auto;}
-
-
 
     
 input[type=text], select, textarea {
@@ -142,10 +138,6 @@ input[type=submit] {
     border: none;
     border-radius: 0px;
     cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
 }
 
 .container {
