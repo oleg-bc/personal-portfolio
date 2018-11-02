@@ -1,0 +1,87 @@
+body {
+    background-image: url("../images/ep_naturalwhite/ep_naturalwhite/ep_naturalwhite.png");
+}
+
+nav{
+    display: inline-block;
+    margin: 15px 0px 0px 430px;
+    color:#777777;
+    text-decoration: none;  
+}
+
+a{
+    margin: 35px 35px 0px 0px;
+    color: #777777;
+    text-decoration:none;   
+}
+.content {
+    width: 960px;
+    margin: auto;
+    border: 3px solid #dddddd;
+    background-color: #ffffff;
+    color: #777777;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #dddddd;
+
+}
+
+.header{
+    width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 5px;
+    border-color:#cccccc;
+}
+.pic{width:30%;  float:left;}
+.txt{width:100%; }
+
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4aaaa5;
+    display: inline-block;  
+}
+
+h2 {
+    background-color: white;
+    color: #4aaaa5;
+    margin: 15px;
+}
+
+p, img{
+    margin: 15px;
+      
+}
+
+
+/*
+DONE-- Teal color (used for headings and backgrounds): #4aaaa5
+
+DONE-- Regular font color (used for paragraphs and all text besides the headings): #777777
+
+DONE-- Main header background color: #ffffff
+
+DONE--Main header border color: #cccccc
+
+Footer background color: #666666
+
+DONE--Main content background color: #ffffff
+
+DONE--Main content border color: #dddddd
+
+background
+
+mainHeader
+
+mainHeaderBorder
+
+footer
+
+mainContent
+*/
