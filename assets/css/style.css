@@ -1,0 +1,192 @@
+body {
+    background-image: url("../images/ep_naturalwhite/ep_naturalwhite/ep_naturalwhite.png");
+}
+
+nav{
+    color: #777777;
+    text-decoration: none;
+    float: right;
+    margin: 41px -15px 0px 0px;
+}
+
+.ninebox{width:960px;margin:auto;}
+
+a{
+    margin: 35px 35px 0px 0px;
+    color: #777777;
+    text-decoration:none;   
+}
+
+
+.header {
+
+    width: auto;
+    margin: auto;
+    background-color: #ffffff;
+    border-style: solid;
+        border-top-style: solid;
+    border-width: 5px 0 5px 0;
+        border-top-width: 5px;
+    border-color: #cccccc;
+        border-top-color: rgb(204, 204, 204);
+    border-top: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+    margin-top: -1%;
+    margin: -1%;
+}
+
+h1 {
+    font-size: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    display: inline-block;   
+    height: 75px;
+    margin: 0px 10px 0px auto;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+
+a{
+    margin: 35px 35px 0px 0px;
+    color: #777777;
+    text-decoration:none;   
+}
+.content {
+    width: 960px;
+    margin: auto;
+    border: 3px solid #dddddd;
+    background-color: #ffffff;
+    color: #777777;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #dddddd;
+    margin-top:35px;
+    margin-bottom: 201px;
+}
+.pic{width:30%;  float:left;}
+.txt{width:100%; }
+h2 {
+    background-color: white;
+    color: #4aaaa5;
+    margin: 15px;
+}
+hr {
+
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    color: lightgray;
+    width: 96%;
+
+}
+p, img{
+    margin: 15px;
+      
+}
+
+.footer{  
+    /* min-height: 100px; */
+    width: 100%;
+    background: LightGray;
+    display: inline;
+    font-size: 14px;
+    color: lightgrey;
+    /*! content-align: center; */
+
+    vertical-align: bottom;
+    margin: -1%;
+    position: absolute;
+}
+
+.line1{background:teal;    min-height: 10px; margin:0px -1% 0px -1%}
+.line2{background:#666666;    min-height: 40px; margin:0px -1% 0px -1%}
+.cr    {   position: absolute;
+   bottom: 0;
+   right: 50%;}
+
+/* .button{font-size: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    display: inline-block;
+    height: 42px;
+    margin: 0px 10px 0px auto;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-left: 25px;} */
+    .myButton {
+
+        -moz-box-shadow: 0px 10px 14px -7px #276873;
+        -webkit-box-shadow: 0px 10px 14px -7px #276873;
+        /* box-shadow: 0px 10px 14px -7px #276873; */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+        background: -moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+        background: -webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+        background: -o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+        background: -ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+        background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+        background-color: #599bb3;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 13px 32px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #3d768a;
+    
+    }
+    .myButton:hover {
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+        background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+        background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+        background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+        background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+        background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+        background-color:#408c99;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+
+.contact-form{   
+    width: 568px;
+    height: 360px;
+    background-color: white;
+    border: 2px solid #aaa;
+    margin: auto;}
+/*
+DONE-- Teal color (used for headings and backgrounds): #4aaaa5
+
+DONE-- Regular font color (used for paragraphs and all text besides the headings): #777777
+
+DONE-- Main header background color: #ffffff
+
+DONE--Main header border color: #cccccc
+
+Done-- background color: #666666
+
+DONE--Main content background color: #ffffff
+
+DONE--Main content border color: #dddddd
+
+background
+
+mainHeader
+
+mainHeaderBorder
+
+footer
+
+mainContent
+*/
